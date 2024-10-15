@@ -28,7 +28,7 @@
     max-width: 700px;
     background-color: rgba(222, 184, 135, 0.075);
     margin: auto;
-    padding: 30px 0;
+    padding: 30px 0 0 0 ;
     overflow: hidden;
 }
 header {
@@ -92,8 +92,10 @@ header {
     color: var(--dark-blue);
 }
 .data-star {
-    justify-content: space-between;
-    margin:20px 0;
+    column-gap: 60px;
+    margin:5px 0 0 70px;
+    font-family: cursive;
+    font-weight: 540;
 }
 .data-star p {
     margin-left: 100px;
